@@ -87,6 +87,10 @@ button:hover {
         border: 0px solid #f0f0f0;
     }
 
+    input#name.item {
+       padding: 0%;
+    }
+
     #img1,
     #img2 {
         display: none;
