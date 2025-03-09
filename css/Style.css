@@ -10,15 +10,19 @@ html {
     padding: 30px;
     background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(1, 1, 1, 1.1);
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1.1);
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     z-index: 1000;
   }
 
 .item {
-    
+    margin-bottom: 15px;
+    width: 100%;
+    letter-spacing: .2rem;
+    justify-content: space-around;
     display: flex;
     font-size: 2em;
+    gap: 21px 82%;
     color: #000;
 }
 
@@ -34,8 +38,11 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+
 }
 
 button:hover {
     background: #218838;
+    box-shadow: 0 0 10px hsl(129, 84%, 60%);
+    
 }
