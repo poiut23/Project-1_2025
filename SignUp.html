@@ -6,7 +6,7 @@
     <title>ProtectThePuppies</title>
     <Link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
     <link rel="stylesheet" media="Screen" type="text/css" href="css/Style.css">
-    <script type="text/javascript" src="js/Site.js" defer></script> 
+    <script src="js/Site.js" defer></script> 
 </head>
 <body>  
     <header> 
@@ -23,13 +23,13 @@
     <section>
         <form id="signup" spellcheck="true" method="post"> 
             <label class="item" for="name">Name*</label>
-            <input class="item"  type="text" name="name" placeholder="Enter name here" required>
+            <input class="item" id="name" type="text" name="name" placeholder="Enter name here" required>
             <label class="item" for="email">Email*</label>
-            <input class="item" type="email"  name="email" placeholder="Enter email here" required>
+            <input class="item" id="email" type="email" name="email" placeholder="Enter email here" required>
             <label class="item" for="password">Password*</label>
-            <input class="item" type="password" name="password" placeholder="Enter password here" required>
+            <input class="item" id="password" type="password" name="password" placeholder="Enter password here" required>
             <label class="item" for="confirm">Confirm Password*</label>
-            <input class="item" type="password" name="confirm" placeholder="Confirm password here" required>
+            <input class="item" id="confirm" type="password" name="confirm" placeholder="Confirm password here" required>
             <button type="submit">Sign Up</button>
         </form>
     </section>
