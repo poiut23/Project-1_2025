@@ -3,16 +3,23 @@ html {
 }
 
 #signup {
-    margin: 100px auto;
+    margin: 10px auto;
     border: 100px solid #f0f0f0;
     border-radius: 1px;
-    width: 60px;
-    padding: 100px;
+    width: 500px;
+    padding: 30px;
     background-color: #f0f0f0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(1, 1, 1, 1.1);
-    font-size: 1.25em;
-    line-height: 1.25em;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     z-index: 1000;
   }
+
+.item {
+    
+    display: flex;
+    font-size: 2em;
+    color: #000;
+}
+
+
