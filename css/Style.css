@@ -45,7 +45,7 @@ button {
 
 button:hover {
     background: #218838;
-    box-shadow: 0 0 10px hsl(129, 84%, 60%);
+    box-shadow: 0 0 30px hsl(129, 84%, 60%);
     
 }
 
@@ -53,13 +53,16 @@ button:hover {
     width: 20em;
     height: 40em;
     border-radius: 10px;
-    box-shadow: 0 0 40px rgba(1, 1, 1, 1.1);
+    box-shadow: 0 0 90px hsl(87, 100%, 64%);
+    float: left;
+    margin-top: -690px;
 }
 
 #img2 {
     width: 20em;
     height: 40em;
     border-radius: 10px;
-    box-shadow: 0 0 40px rgba(1, 1, 1, 1.1);
-    
+    box-shadow: 0 0 90px hsl(87, 100%, 64%);
+    float: right;
+    margin-top: -690px;
 }
