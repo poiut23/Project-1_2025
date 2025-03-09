@@ -28,10 +28,6 @@ html {
     color: #000;
 }
 
-p {
-    tex;
-}
-
 button {
     width: 100%;
     padding: 10px;
@@ -53,7 +49,7 @@ button:hover {
     width: 20em;
     height: 40em;
     border-radius: 10px;
-    box-shadow: 0 0 90px hsl(87, 100%, 64%);
+    box-shadow: 0 0 20px hsl(87, 100%, 64%);
     float: left;
     margin-top: -690px;
 }
@@ -62,7 +58,7 @@ button:hover {
     width: 20em;
     height: 40em;
     border-radius: 10px;
-    box-shadow: 0 0 90px hsl(87, 100%, 64%);
+    box-shadow: 0 0 20px hsl(87, 100%, 64%);
     float: right;
     margin-top: -690px;
 }
