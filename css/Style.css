@@ -84,3 +84,30 @@ button:hover {
         display: none; /* Hide images */
     }
 }
+
+
+@media screen and (max-width: 2561px) {
+    #signup {
+        width: 20%;
+    }
+    
+        #img1 {
+            width: 34%;
+            height: 40em;
+            border-radius: 10px;
+            box-shadow: 0 0 20px hsl(87, 40%, 43%);
+            float: left;
+            margin-top: -690px;
+        }
+        
+        #img2 {
+            width: 34%;
+            height: 40em;
+            border-radius: 10px;
+            box-shadow: 0 0 20px hsl(87, 40%, 43%);
+            float: right;
+            margin-top: -690px;
+        }
+        
+    }
+}
