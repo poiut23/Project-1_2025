@@ -87,7 +87,8 @@ button:hover {
         border: 0px solid #f0f0f0;
     }
 
-    input#name.item {
+    input#name.item, input#email.item,
+     input#password.item, input#confirm.item {
        padding: 0%;
     }
 
