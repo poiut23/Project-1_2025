@@ -16,10 +16,12 @@ html {
   }
 
 .item {
+    border-radius: 0;
     margin-bottom: 15px;
     width: 100%;
     letter-spacing: .2rem;
     justify-content: space-around;
+    margin-bottom: 0.9rem;
     display: flex;
     font-size: 2em;
     gap: 21px 82%;
