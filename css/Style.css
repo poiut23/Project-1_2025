@@ -87,9 +87,20 @@ button:hover {
         border: 0px solid #f0f0f0;
     }
 
-    input#name.item, input#email.item,
-     input#password.item, input#confirm.item {
+    input#name.item {
        padding: 0%;
+    }
+
+    input#email.item {
+        padding: 0%;
+    }
+
+    input#password.item {
+        padding: 0%;
+    }
+
+    input#confirm.item {
+        padding: 0%;
     }
 
     #img1,
