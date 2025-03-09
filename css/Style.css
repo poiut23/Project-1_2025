@@ -48,3 +48,18 @@ button:hover {
     box-shadow: 0 0 10px hsl(129, 84%, 60%);
     
 }
+
+#img1 {
+    width: 20em;
+    height: 40em;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1.1);
+}
+
+#img2 {
+    width: 20em;
+    height: 40em;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(1, 1, 1, 1.1);
+    
+}
