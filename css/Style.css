@@ -73,7 +73,6 @@ button:hover {
     }
     #img1, #img2 {
         display: none; /* Hide images */
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1030px) {
@@ -84,7 +83,6 @@ button:hover {
         display: none; /* Hide images */
     }
 }
-
 
 @media screen and (max-width: 2561px) {
     #signup {
