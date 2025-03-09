@@ -1,7 +1,7 @@
-const button = document.getElementById('button')
- button.addEventListener("click", buttonClick)
-
-function buttonClick(){
-   alert("THANK YOU HELPING US SAVE THE PUPPIES!!&#9787;")
-}
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('signup')
+    form.addEventListener("submit", function(e) {
+        alert("SUBMISSION COMPLETE, YOU'RE A HERO AMUNG PUPPIES!!!");
+    });
+});
 
