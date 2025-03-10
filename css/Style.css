@@ -103,6 +103,18 @@ button:hover {
         background-position: center; /* Position the background at the top center */
     }
 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px hsl(87, 40%, 43%);
+    margin-bottom: 20px;
+  }
+
 
     h1 {
         float: left;
