@@ -4,8 +4,6 @@ $(document).ready(() => {
         alert("SUBMISSION COMPLETE, YOU'RE A HERO AMONG PUPPIES!!!");
     });
 
-    $('.dropDown-menu').mouseover(function () {
-        $(this).find('.dropDown-content').css('display', 'block');
-    });
+
 
 });
