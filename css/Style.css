@@ -82,21 +82,6 @@ button:hover {
     margin-top: -690px;
 }
 
-/*
-input[type="image"] {
-    margin-bottom: -90px;
-    
-  }
-  
-  input[type="image"] {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-left: 152px;
-  }
-*/
-
-
 @media screen and (min-width: 320px) and (max-width: 430px) and (orientation: portrait) {
 
     input[type="image"] {
@@ -126,6 +111,12 @@ input[type="image"] {
         /* Position the background at the top center */
     }
 
+    div {
+        margin-bottom: 10px;
+        background-color: #f0f0f0;
+    }
+
+    
     nav {
         list-style: none;
         position: fixed;
@@ -134,11 +125,6 @@ input[type="image"] {
         padding-top: 0px;
         padding-bottom: 0px;
         z-index: 1200;
-    }
-
-    .dropdown {
-        position: relative;
-        display: inline-block;
     }
     
     .dropdown-content {
@@ -165,7 +151,7 @@ input[type="image"] {
         background-color: #ddd; /* Add a hover effect */
     }
     
-    .menu-button {
+    .dropDown-Button {
         background: none;
         border: none;
         font-size: 1.5em;
