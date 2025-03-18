@@ -7,13 +7,11 @@ $(document).ready(function() {
     const $menuButton = $('#dropDown-Button');
     const $navDropdown = $('.dropdown-content');
 
-    $menuButton.on('click', function() {
-        $navDropdown.toggle(); // Use toggle to show/hide the dropdown
+    $menuButton.on('mouseenter', function() {
+        $navDropdown.show(); // Show the dropdown when the mouse enters the button
     });
 
-    $(document).on('click', function(e) {
-        if (!$(e.target).closest('.dropdown').length) {
-            $navDropdown.hide(); // Hide the dropdown if clicked outside
-        }
+    $('.dropdown').on('mouseleave', function() {
+        $navDropdown.hide(); // Hide the dropdown when the mouse leaves the dropdown area
     });
 });
