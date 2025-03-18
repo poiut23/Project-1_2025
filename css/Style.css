@@ -147,32 +147,42 @@ button:hover {
         padding-bottom: 10px;
         border-radius: 2px;
         background: #fff; 
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
         
     }
-    
-    .dropdown-content li {
-        list-style: none; /* Remove bullet points */
-        padding: 12px 16px;
+
+    ul.dropDown-Content li:first-child {
+       margin-top: -20px;
     }
+
+    ul.dropdown-content li {
+        margin-bottom: 35px;
+        position: relative;
     
-    .dropdown-content li a {
-        text-decoration: none;
-        color: #000; /* Adjust the color as needed */
-        display: block; /* Make the links block elements */
     }
-    
-    .dropdown-content li a:hover {
-        background-color: #ddd; /* Add a hover effect */
-    }
-    
-    .dropDown-Button {
-        background: none;
+
+    ul.dropdown-content li > a:hover {
         border: none;
-        font-size: 1.5em;
-        cursor: pointer;
-        position: relative; /* Position the button relative to the dropdown */
+        color: #ff1818;
     }
+
+    ul.dropDown-Content li a {
+        color: #000;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .dropdown-content::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 10px;
+        border: 10px solid transparent;
+        border-bottom-color: #fff;
+    }
+    
+ 
+   
 
     h1 {
         float: left;
