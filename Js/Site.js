@@ -4,15 +4,12 @@ $(document).ready(() => {
         alert("SUBMISSION COMPLETE, YOU'RE A HERO AMONG PUPPIES!!!");
     });
 
-    const $menuButton = $('.menu-button');
-    const $navDropdown = $('#nav-dropdown');
-
-    $menuButton.on('click', () => {
-        $navDropdown.toggle(); // Use toggle to show/hide the dropdown
+    $('#Menu').on('click', () => {
+        $('#dropDown-Content').show();
     });
 
-    $navDropdown.on('mouseleave', () => {
-        $navDropdown.hide();
+    $('.dropDown-Content').on('mouseleave', function () {
+        $(this).hide();
     });
 
 });
