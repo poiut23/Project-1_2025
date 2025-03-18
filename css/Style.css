@@ -114,9 +114,21 @@ button:hover {
     div {
         margin-bottom: 10px;
         background-color: #f0f0f0;
+        border-radius: 10px;
     }
 
-    
+    nav li a {
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #fff;
+        font-size: 14px;
+    }
+    nav li {
+        list-style-type: none;
+        float: left;
+        margin-right: 10px;
+    }
     nav {
         list-style: none;
         position: fixed;
@@ -124,16 +136,19 @@ button:hover {
         max-width: 10%;
         padding-top: 0px;
         padding-bottom: 0px;
-        z-index: 1200;
     }
     
     .dropdown-content {
-        display: none; /* Hide the dropdown by default */
+        display: none; 
         position: absolute;
-        background-color: #fff; /* Background color for the dropdown */
+        width: 200px;
+        padding: 10px 0px 10px 0px; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 2px;
+        background: #fff; 
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for better visibility */
-        min-width: 160px;
-        z-index: 1;
+        
     }
     
     .dropdown-content li {
