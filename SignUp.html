@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-        
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProtectThePuppies</title>
-    <Link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
+    <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
     <link rel="stylesheet" media="Screen" type="text/css" href="css/Style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/Site.js" defer></script>
 </head>
-
 <body>
     <header>
         <input type="image" id="image" alt="Login" src="image/logo.jpg" />
         <h1>sign up to Protect The Puppies!!</h1>
-        <nav id="dropDown">
-            <ul id="dropDownContent">
+        <nav>
+            <button class="menu-button">Menu</button>
+            <ul id="nav-dropdown" style="display: none;">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="Contact.html">Contact</a></li>
@@ -33,22 +33,14 @@
             <label class="item" for="email">Email*</label>
             <input class="item" id="email" type="email" name="email" placeholder="Enter email here" required>
             <label class="item" for="password">Password*</label>
-            <input class="item" id="password" type="password" name="password" placeholder="Enter password here"
-                required>
+            <input class="item" id="password" type="password" name="password" placeholder="Enter password here" required>
             <label class="item" for="confirm">Confirm Password*</label>
-            <input class="item" id="confirm" type="password" name="confirm" placeholder="Confirm password here"
-                required>
+            <input class="item" id="confirm" type="password" name="confirm" placeholder="Confirm password here" required>
             <button type="submit">Confirm Registration</button>
         </form>
     </section>
-    <img id="img1" src="image/very_happy_puppy1.jpg"
-        alt="this is a photo of a very happy puppy running towars the camera">
+    <img id="img1" src="image/very_happy_puppy1.jpg" alt="this is a photo of a very happy puppy running towards the camera">
     <img id="img2" src="image/very_happy_puppy2.jpg" alt="very happy puppy playing with a toy">
-    <img id="img4" src="image/grass.jpg" alt="green blurry grass">
-
-
-
-
+    <img id="img4" src="image/grass.jpg" alt="green grass">
 </body>
-
 </html>
