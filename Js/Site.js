@@ -8,6 +8,12 @@ $(document).ready(function() {
         $(".nav-dropdown").toggle();
       })
 
+      $(document).on("click", function (e) {
+        if (!$(e.target).closest('.menu-dropdown, .nav-dropdown').length) {
+            $(".nav-dropdown").hide();
+        }
+    });
+
 
     });
     
