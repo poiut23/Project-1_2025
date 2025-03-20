@@ -4,14 +4,13 @@ $(document).ready(function() {
         alert("SUBMISSION COMPLETE, YOU'RE A HERO AMONG PUPPIES!!!");
     });
 
-    const $menuButton = $('#dropDown-Button');
-    const $navDropdown = $('.dropdown-content');
-
-    $menuButton.on('mouseenter', function() {
-        $navDropdown.show(); // Show the dropdown when the mouse enters the button
+    $('#dropDown-Button').on('mouseenter', () => {
+        $('.dropDown-Content').show();
     });
 
-    $('.dropdown').on('mouseleave', function() {
-        $navDropdown.hide(); // Hide the dropdown when the mouse leaves the dropdown area
+    $('#dropDown-Button').on('mouseleave', () => {
+        $('.dropDown-Content').hide();
     });
+
+
 });
