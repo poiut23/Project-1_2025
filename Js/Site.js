@@ -6,6 +6,8 @@ $(document).ready(function() {
 
     $(".menu-dropdown").on("click", function () {
         $(".nav-dropdown").toggle();
-      });
+      })
+
+
     });
     
