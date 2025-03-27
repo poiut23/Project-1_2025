@@ -6,30 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProtectThePuppies</title>
     <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
-    <link rel="stylesheet" media="Screen" type="text/css" href="css/Style.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js" async></script>
+    <script src="js/site.js" async></script>
 </head>
 
 <body>
     <header>
         <input type="image" id="image" alt="Login" src="image/logo.jpg" />
         <h1>sign up to Protect The Puppies!!</h1>
-
-
         <button class="menu-dropdown">☰</button>
-    <nav class="nav-dropdown">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="SignUp.html">Sign Up</a></li>
-      </ul>
-    </nav>
+        <nav class="nav-dropdown">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="SignUp.html">Sign Up</a></li>
+            </ul>
+        </nav>
     </header>
     <section>
         <h2>
             <p>&#128062;</p>Sign Up Form
         </h2>
-        <form id="signup" spellcheck="true" method="post">
+        <form id="signup" spellcheck="true" method="post" action="#null" autocomplete="on">
             <label class="item" for="name">Name*</label>
             <input class="item" id="name" type="text" name="name" placeholder="Enter name here" required autocomplete="name">
             <label class="item" for="email">Email*</label>
@@ -41,11 +41,9 @@
             <button type="submit">Confirm Registration</button>
         </form>
     </section>
-    <img id="img1" src="image/very_happy_puppy1.jpg" alt="this is a photo of a very happy puppy running towars the camera">
+    <img id="img1" src="image/very_happy_puppy1.jpg" alt="this is a photo of a very happy puppy running towards the camera">
     <img id="img2" src="image/very_happy_puppy2.jpg" alt="very happy puppy playing with a toy">
     <img id="img4" src="image/grass.jpg" alt="green blurry grass">
-   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-    <script src="js/Site.js" defer></script>
 </body>
+
 </html>
